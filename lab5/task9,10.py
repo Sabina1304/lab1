@@ -1,3 +1,6 @@
+import re
+
+
 # ex 9
 test = "SplitStringOooGood"
 resub = re.sub(r"(\w)([A-Z])", r"\1 \2", test)

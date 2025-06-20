@@ -1,3 +1,6 @@
+import re
+
+
 # ex 7
 test = "_ggg_sd_ff_midka"
 list = re.split(r"[_]+", test)
